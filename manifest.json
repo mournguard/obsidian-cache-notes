@@ -1,0 +1,9 @@
+{
+	"id": "cache-notes",
+	"name": "Cache Notes",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Keeps the content of notes in memory so it can be accessed without relying on i/o.",
+	"author": "Mournguard",
+	"isDesktopOnly": false
+}
