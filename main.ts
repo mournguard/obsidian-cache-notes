@@ -39,7 +39,7 @@ export default class CacheNotes extends Plugin {
 		this.enabled = enabled
 	}
 
-	private cacheFile = (file: TFile) => {
+	public cacheFile = (file: TFile) => {
 		if(!this.enabled) return
 		this.app.vault.read(file).then((content) => {
 			const el = createDiv()
